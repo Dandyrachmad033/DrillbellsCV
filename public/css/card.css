@@ -1,0 +1,18 @@
+.resize-images {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+@media (min-width: 1026px) {
+    .resize-images {
+        max-width: 100%;
+        max-height: 612px;
+    }
+}
+
+@media (min-width: 1365px) {
+    .resize-images {
+        max-width: 100%;
+        max-height: 400px;
+    }
+}
