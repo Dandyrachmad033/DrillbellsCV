@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react';
 
 export default function Card_portofolio() {
     return (
-        <div className="flex flex-wrap justify-center">
-            <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+        <div className="flex flex-wrap">
+            <div className="sm:w-full md:w-1/2 lg:w-1/3">
                 <div className="m-2 bg-black border border-white" style={{ maxHeight: "1500px", borderRadius: "15px" }}>
                     <div className='m-1' style={{ borderRadius: "10px", overflow: "hidden" }}>
                         <div className="carousel " style={{ height: "300px" }}>
@@ -41,21 +41,21 @@ export default function Card_portofolio() {
                 </div>
             </div>
 
-            <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <div className="sm:w-full md:w-1/2 lg:w-1/3">
                 <div className="m-2 bg-black border  border-white" style={{ maxHeight: "1500px", borderRadius: "15px" }}>
                     <div className='m-1' style={{ borderRadius: "10px", overflow: "hidden" }}>
 
                         <div className="carousel " style={{ height: "300px" }}>
-                            <div id="item5" className="carousel-item ">
+                            <div id="item5" className="carousel-item w-full">
                                 <img src="/images/nondepo1.png" />
                             </div>
-                            <div id="item6" className="carousel-item ">
+                            <div id="item6" className="carousel-item w-full ">
                                 <img src="/images/nondepo3.png" />
                             </div>
-                            <div id="item7" className="carousel-item ">
+                            <div id="item7" className="carousel-item w-full">
                                 <img src="/images/nondepo2.png" />
                             </div>
-                            <div id="item8" className="carousel-item ">
+                            <div id="item8" className="carousel-item w-full">
                                 <img src="/images/nondepo4.png" />
                             </div>
                         </div>
@@ -78,21 +78,21 @@ export default function Card_portofolio() {
                 </div>
 
             </div>
-            <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <div className="sm:w-full md:w-1/2 lg:w-1/3">
                 <div className="m-2 bg-black border  border-white" style={{ maxHeight: "1500px", borderRadius: "15px" }}>
                     <div className='m-1' style={{ borderRadius: "10px", overflow: "hidden" }}>
 
                         <div className="carousel " style={{ height: "300px" }}>
-                            <div id="item9" className="carousel-item ">
+                            <div id="item9" className="carousel-item w-full">
                                 <img src="/images/meditasi4.png" />
                             </div>
-                            <div id="item10" className="carousel-item ">
+                            <div id="item10" className="carousel-item w-full">
                                 <img src="/images/meditasi3.png" />
                             </div>
-                            <div id="item11" className="carousel-item ">
+                            <div id="item11" className="carousel-item w-full">
                                 <img src="/images/meditasi2.png" />
                             </div>
-                            <div id="item12" className="carousel-item ">
+                            <div id="item12" className="carousel-item w-full">
                                 <img src="/images/meditasi1.png" />
                             </div>
                         </div>
@@ -113,18 +113,18 @@ export default function Card_portofolio() {
                 </div>
 
             </div>
-            <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <div className="sm:w-full md:w-1/2 lg:w-1/3">
                 <div className="m-2 bg-black border border-white" style={{ maxheight: "1500px", borderRadius: "15px" }}>
                     <div className='m-1' style={{ borderRadius: "10px", overflow: "hidden" }}>
 
-                        <div className="carousel " style={{ height: "300px" }}>
-                            <div id="item13" className="carousel-item ">
+                        <div className="carousel  " style={{ height: "300px" }}>
+                            <div id="item13" className="carousel-item w-full">
                                 <img src="/images/mealapp3.png" />
                             </div>
-                            <div id="item14" className="carousel-item ">
+                            <div id="item14" className="carousel-item w-full">
                                 <img src="/images/mealapp1.png" />
                             </div>
-                            <div id="item15" className="carousel-item ">
+                            <div id="item15" className="carousel-item w-full">
                                 <img src="/images/mealapp2.png" />
                             </div>
 
