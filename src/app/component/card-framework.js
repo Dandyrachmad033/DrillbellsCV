@@ -11,7 +11,7 @@ export default function Card_framework({ imageSrc, Title, badges, toogle, link }
                 </h2>
                 <div className="card-actions justify-between ml-5">
                     <div className='flex'>
-                        <div className=" p-2 mr-20" style={{ fontSize: "1.4rem" }}>{ }</div>
+
                         <button className={`btn ${toogle} text-white p-2`} onClick={() => window.open(`${link}`, '_blank')}>
                             Learn
                             <div className="badge badge-neutral">&#10148;</div>

@@ -110,6 +110,7 @@ export default function Home() {
       </div>
       <div className="justify-center flex bg-black text-white font-mono text-2xl mb-12">Education</div>
       <div className="p-2 bg-black justify-center flex">
+        <div className=''></div>
         <Card_education />
       </div>
 
