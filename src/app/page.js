@@ -66,8 +66,10 @@ export default function Home() {
       <div className="justify-center flex bg-black text-white font-mono text-2xl">Skills Framework</div>
       <div className="flex flex-wrap ">
         <div className="p-5 sm:w-full md:w-1/2 lg:w-1/4 bg-black">
-          <div className="p-2 bg-black radius-card border border-white" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
-            <Card_framework imageSrc="/images/laravel-images.png" Title="Laravel" badges='bg-red-500' toogle='hover:bg-red-600' link='https://laravel.com/' />
+          <div className="p-2 radius-card border border-white" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
+
+            <Card_framework imageSrc="/images/laravel-images.png" Title="Laravel" badges='bg-red-500' toogle='hover:bg-red-600' link='https://laravel.com/' style={{ Animation: "none" }} />
+
           </div>
         </div>
         <div className="p-5 sm:w-full md:w-1/2 lg:w-1/4 bg-black">

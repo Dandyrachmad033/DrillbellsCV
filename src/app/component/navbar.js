@@ -11,15 +11,15 @@ function Navbar({ scrollToabout, scrollToframework, scrollToExperience, scrollTo
     };
 
     return (
-        <nav className="border-b-shadow bg-black" >
+        <nav className="border-b-shadow " style={{ background: "#07252d" }} >
             <div className="p-2 lg:flex justify-between md:flex md:justify-between">
-                <div className='flex justify-between items-center'>
-                    <h1 className="text-white hover:text-blue-600 cursor-pointer text-shadow" onClick={() => window.open(`https://github.com/Dandyrachmad033`, '_blank')} >Dandy Rachmad (DrillBells)</h1>
+                <div className='flex justify-between items-center '>
+                    <h1 className=" hover:text-blue-600 cursor-pointer text-shadow font-poppins text-style" onClick={() => window.open(`https://github.com/Dandyrachmad033`, '_blank')} >DrillBells</h1>
 
                     {/* Tombol menu untuk tampilan mobile */}
                     <div className="lg:hidden md:hidden ">
                         <button className="text-white hover:text-blue-600" onClick={toggleMenu}>
-                            Menu
+                            MENU
                         </button>
                     </div>
                 </div>

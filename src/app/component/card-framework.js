@@ -2,7 +2,7 @@
 import '@/../../public/css/card.css'
 export default function Card_framework({ imageSrc, Title, badges, toogle, link }) {
     return (
-        <div className="card bg-base-100 shadow-xl">
+        <div className="card bg-base-100 shadow-xl" style={{ zIndex: "10" }}>
             <figure><img src={imageSrc} alt="Shoes" data-aos="zoom-in-up" data-aos-duration="1000" /></figure>
             <div className="card-body">
                 <h2 className="card-title justify-center font-extralight" data-aos="flip-up" data-aos-duration="1100">

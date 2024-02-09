@@ -1,5 +1,6 @@
 "use client";
 import '@/../../public/css/card.css'
+import '@/../../public/css/home.css'
 
 
 export default function Card() {
@@ -9,7 +10,7 @@ export default function Card() {
                 <figure className='resize-images border-double border-4 border-white' style={{ borderRadius: "15px" }}><img className='' src="/images/profile.png" alt="Album" style={{ width: "400px", height: "100%", objectFit: "cover", borderRadius: "15px" }} /></figure>
             </div>
             <div className="card-body bg-black">
-                <h2 className="card-title font-serif text-sky-500">Dandy Rachmad Ramadhan (FullStack Developer, Sofware Engineer)</h2>
+                <h2 className="card-title font-serif text-style-name">Dandy Rachmad Ramadhan (FullStack Developer, Sofware Engineer)</h2>
                 <p className='font-serif'>As a software programmer, web developer, and full-stack developer, I have broad skills and deep experience in developing
                     innovative software and web applications. I am a passionate individual and highly passionate about the world of software
                     development, with a primary focus on creating efficient and reliable solutions for client and user needs. With experience
@@ -18,7 +19,8 @@ export default function Card() {
                     implementation of algorithms. I have also contributed in optimizing application performance and improving user experience
                     through the integration of advanced technologies.
                 </p>
-                <h2 className="card-title font-serif text-sky-300">Skill</h2>
+
+                <h2 className="card-title font-serif text-style-skill">Skill</h2>
                 <div className='p-2 pt-0 row-flex'>
                     <div className="badge badge-outline badge-primary m-2 font-mono" data-aos="zoom-in" data-aos-duration="200">PHP</div>
                     <div className="badge badge-outline text-yellow-400 m-2 font-mono" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200">Javascript</div>
